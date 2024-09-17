@@ -27,8 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
    
     let valid = true;
 
-    if (!nameInput.value.trim()) {
-      nameError.textContent = "Full name is required";
+    if (!nameInput.value.trim() || nameInput.value.trim().length < 5) {
+        
+      nameError.textContent = "Full name is required and must be at least 5 characters long";
       valid = false;
     }
 
