@@ -1,27 +1,7 @@
 /* Fonts setup */
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 
-@font-face {
-  font-family: "Atkins";
-  src: url("../fonts/Atkinson_Hyperlegible/Atkinson-Hyperlegible-Regular-102a.woff2");
-  font-style: normal;
-}
-@font-face {
-  font-family: "AtkinsBold";
-  src: url("../fonts/Atkinson_Hyperlegible/Atkinson-Hyperlegible-Bold-102a.woff2");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "AtkinsItalic";
-  src: url("../fonts/Atkinson_Hyperlegible/Atkinson-Hyperlegible-Italic-102a.woff2");
-  font-style: italic, oblique;
-}
-@font-face {
-  font-family: "AtkinsBoldItalic";
-  src: url("../fonts/Atkinson_Hyperlegible/Atkinson-Hyperlegible-BoldItalic-102a.woff2");
-  font-weight: bold;
-  font-style: italic, oblique;
-}
+ 
 
 body {
   font-family: "Poppins", sans-serif;
@@ -58,8 +38,7 @@ header .logo {
 .text-center a:hover {
   text-decoration: none;
 }
-
-/* Responsive Adjustments */
+ 
 @media (max-width: 768px) {
   header .navigation a {
     margin-top: 10px;
@@ -82,4 +61,7 @@ header .logo {
   .form-box h2 {
     font-size: 1.5em;
   }
+}
+.none {
+    display: none;
 }
