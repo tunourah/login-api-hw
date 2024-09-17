@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           
           console.log("Redirecting to home.html");
-          window.location.href = "index.html";
+          window.location.href = "login.html";
         })
         .catch((error) => {
           console.error("There was a problem with the fetch operation:", error);
